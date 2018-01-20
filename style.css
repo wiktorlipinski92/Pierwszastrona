@@ -1,0 +1,279 @@
+ body
+ {
+	 background-color: gray;
+ }
+ 
+#main
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	width:1200px;
+	border: 2px solid black;
+}
+
+
+#left
+ {	 
+	 float:left;
+	 width: 200px;
+	 height: 800px;
+	 margin-top:0px;
+ }
+ 
+  #menu
+ {
+	 text-align:center;
+	 height: 500px;
+	 width:100%;
+	 
+ }
+ 
+  #omnie
+ {	 
+	background-color: #005C45;
+	 height: 290px;
+	 width:190px;
+	 overflow:hidden;
+	 text-align:center;
+	 margin-top:0px;
+	 padding:5px;
+	 margin-bottom:0px;
+ }
+ 
+ #omnie h3
+{
+	margin-top:5px;
+	text-align:center;
+}
+ #omnie p
+ {
+	 margin-top:10px;
+	 text-align:center;
+	 font-size:12px;
+	 line-height:25px;
+	 text-shadow: 2px 1px 003F2F;
+	 font-family: 'Risque', cursive;
+ }
+ #omnie img
+ {
+	 width:160px;
+ }
+ 
+ 
+ 
+  #baner
+ {
+	 height: 150px;
+	 overflow:hidden;
+ }
+ 
+
+  #middle
+ {
+	 width:840px;
+	 height:800px;
+	 float:left;
+ }
+ 
+  #content
+ {
+	 background-color: gray;	 
+	 height:700px;
+	 width: 780;
+	 text-align:justify;
+	 padding:10px;
+	 font-family: 'Risque', cursive;
+ }
+
+   #img
+   {
+	  width: 600px;
+	  height:400px;	  
+	  overflow:hidden; 
+	  text-align:center;
+	  margin-left:auto;
+	  margin-right:auto;
+	  margin-top:50px;
+   }
+   #content img
+   {
+	   width: 600px;
+	   height:400px;
+	   transition: all 0.5s ease-in-out;
+   }
+   
+   #content img:hover
+   {
+	   transform:scale(1.2);
+   }
+   
+  #ikony
+ {
+	 background-color: #003F2F;	 
+	 height:100px;
+	 width: 100%;
+	 font-size:50px;
+	 text-align:center;
+	 letter-spacing:40px;
+	 line-height:100px;
+	 
+ }
+ 
+a:visited
+ {
+	 color:black;
+ }
+ 
+ .icon-facebook-official:hover
+ {
+	 color:#3b5998;
+	 cursor:pointer;
+ }
+ 
+ .icon-lightbulb:hover
+ {
+	 color:yellow;
+	 cursor:pointer;
+ }
+ 
+  .icon-question-circle-o:hover
+ {
+	 color:green;
+	 cursor:pointer;
+ }
+ 
+  .icon-cog-alt:hover
+ {
+	 color:#A00030;
+	 cursor:pointer;
+ }
+ 
+  #right
+ {
+	 width:160px;
+	 float:left;
+	 height:800px;
+ }
+ 
+  #login
+ {
+	 background-color: gray;	 
+	 height: 200px;
+	 text-align:center;
+	 
+ }
+ 
+ input[type=login]
+ {
+	 width:  150px;
+	 margin-top:30px;
+	 text-align:center;
+ }
+ 
+ input[type=password]
+ {
+	 width:  150px;
+	 margin-top:15px;
+	 text-align:center;
+ }
+ 
+ input[type=submit]
+ {
+	 margin-top: 20px;
+	 width:150px;
+	 background-color:#008C69;
+	 border:1px solid #005C45;
+	 height:30px;
+	 border-radius:10px;
+ }
+ 
+ input[type=submit]:hover
+ {
+	cursor:pointer;
+	 background-color:#10A580;
+	 border:2px solid #005C45;
+ }
+ 
+ 
+  #reklama
+ {
+	 height: 600px;
+	 margin-left:0px;
+ }
+ 
+ #stopka
+ {
+	clear:both; 
+	background-color: #003F2F;
+	color: #black;
+	text-shadow: 1px 1px #008C69;
+	text-align:center;
+	margrin-left: auto;
+	margin-right: auto;
+	height:20px;
+ }
+ 
+ ol
+ {
+	 list-style: none;
+	 margin-top:0px;
+	 margin-left:-40px;
+ }
+ 
+
+   ol > li
+ {
+	 display:block;
+	 height:40px;
+	 font-size:12px;
+	 width:200px;
+	 border-bottom: 2px solid #005555;
+	 text-align: center;
+	 line-height: 40px;
+	 background-color: #008181;
+	
+ }
+ 
+ ol > li:hover
+ {
+	 cursor: pointer;
+	 background-color: #0E9898;
+
+ }
+ 
+ ol > li > ul
+ {
+	  margin-left:-40px;
+	  display:none;
+	  list-style:none;
+ }
+ 
+ ol > li:hover > ul
+ {
+	  margin-left:-40px;
+	  display:block;
+ }
+ 
+ ol > li > ul >li
+ {
+	 height:30px;
+	 background-color:#008C69;
+	 margin-left:0;
+	 border-top: 1px solid black;
+	 position:relative;
+	 z-index:100;
+	 
+ }
+ 
+ ol > li > ul >li:hover
+ {
+	background-color:#00CA8D;
+	 
+	 
+ }
+
+
+ 
+ 
+ 
